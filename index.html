@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saurabh | Portfolio</title>
+  <meta name="description" content="Saurabh Gautam Portfolio - Frontend Developer"> 
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="progressBar"></div>
+<div class="overlay" id="overlay"></div>
+<nav id="navbar">
+  <div class="logo">Saurabh Gautam</div>
+  <div class="menu-icon" id="menuIcon">
+    <div></div><div></div><div></div>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact" class="nav-btn">Contact</a></li>
+  </ul>
+</nav>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <img src="assets/profile.png" alt="Profile photo of Saurabh Gautam" class="profile-img">
+  </div>
+  <div class="hero-right">
+    <h1>Hi, I'm</h1>
+    <h1>Saurabh Gautam</h1>
+    <p class="hero-role">• Aspiring Software Developer • Frontend Developer • Problem Solver</p>
+    <div class="hire-badge">
+      <span class="dot"></span>
+      Available for Hire
+    </div>
+    <div class="location-badge">
+      📍 Etah, Uttar Pradesh, India
+    </div> 
+    <div class="hero-actions">
+      <!-- Resume -->
+      <a href="assets/Saurabh_Gautam.pdf" download class="btn-primary">
+        Download Resume
+      </a>
+      <!-- Socials BELOW -->
+      <div class="hero-socials">
+        <a href="https://github.com/saurabhgautam56" target="_blank" rel="noopener noreferrer">
+          <img src="assets/github.png" alt="GitHub">
+        </a>
+
+        <a href="https://www.linkedin.com/in/saurabh-gautam-508464232/" target="_blank" rel="noopener noreferrer">
+          <img src="assets/linkedin.png" alt="LinkedIn">
+        </a>
+      </div>
+
+    </div>
+    <!-- QUICK CONTACT -->
+    <div class="quick-contact">
+      <a href="https://wa.me/918171333368?text=Hi%20Saurabh,%20I%20saw%20your%20portfolio!" 
+         target="_blank" 
+         class="contact-btn whatsapp">
+        <img src="assets/whatsapp.png" alt="WhatsApp">
+        <span>WhatsApp</span>
+      </a>
+      <a href="mailto:saurabhgautam567801@gmail.com" class="contact-btn email">
+        <img src="assets/gmail.png" alt="Email">
+        <span>Email</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <ul class="highlights">
+    <li>Passionate about creating innovative web applications</li>
+    <li>Experienced in frontend development with React and JavaScript</li>
+    <li>Built projects: React Music Player, Web Chatbot</li>
+    <li>Strong foundation in data structures and algorithms</li>
+  </ul>
+</section>
+
+<section id="education">
+  <h2>🎓Education</h2>
+  <div class="education-timeline">
+
+    <div class="edu-card">
+      <h3>🎓 B.Tech - Computer Science Engineering</h3>
+      <p><strong>College:</strong> Nitra Technical Campus, Ghaziabad</p>
+      <p><strong>Year:</strong> 2020 - 2024</p>
+      <p><strong>Focus:</strong> Data Structures, Web Development</p>
+    </div>
+
+    <div class="edu-card">
+      <h3>📚 Class 12 (Senior Secondary)</h3>
+      <p><strong>School:</strong> Jawahar Navodaya Vidyalaya</p>
+      <p><strong>Year:</strong> 2018 - 2019</p>
+      <p><strong>Stream:</strong> Science (PCM)</p>
+    </div>
+
+    <div class="edu-card">
+      <h3>🏫 Class 10</h3>
+      <p><strong>School:</strong> Jawahar Navodaya Vidyalaya</p>
+      <p><strong>Year:</strong> 2016 - 2017</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>💡Skills</h2>
+
+  <div class="skill-item">
+    <p>⚛️ Frontend (React, HTML, CSS, JavaScript)</p>
+    <div class="bar-container">
+      <div class="bar" data-percent="80"></div>
+    </div>
+  </div>
+
+  <div class="skill-item">
+    <p>⚙️ Backend (Node.js, Express)</p>
+    <div class="bar-container">
+      <div class="bar" data-percent="60"></div>
+    </div>
+  </div>
+
+  <div class="skill-item">
+    <p>👨‍💻 Programming (Java, Python)</p>
+    <div class="bar-container">
+      <div class="bar" data-percent="85"></div>
+    </div>
+  </div>
+
+  <div class="skill-item">
+    <p>🧠 Problem Solving (Data Structures & Algorithms)</p>
+    <div class="bar-container">
+      <div class="bar" data-percent="80"></div>
+    </div>
+  </div>
+
+  <div class="skill-item">
+    <p>🗄️ Databases (MongoDB, MySQL)</p>
+    <div class="bar-container">
+      <div class="bar" data-percent="65"></div>
+    </div>
+  </div>
+
+  <div class="skill-item">
+    <p>🛠️ Tools (Git, GitHub, VS Code)</p>
+    <div class="bar-container">
+      <div class="bar" data-percent="75"></div>
+    </div>
+  </div>
+
+</section>
+
+<section id="certifications">
+  <h2> 🏆 Certifications</h2>
+  <div class="cert-grid">
+
+    <a href="assets/certificates/webdevelopment.pdf" target="_blank" class="cert-card">
+      <h3>🌐 Web Development</h3>
+      <p>Complete web development course</p>
+      <span>Intershala</span>
+    </a>
+    
+    <a href="assets/certificates/javacourse.pdf" target="_blank" class="cert-card">
+      <h3>👨‍💻 Java Programming</h3>
+      <p>Learning Java programming fundamentals</p>
+      <span>Udemy</span>
+    </a>
+
+    <a href="assets/certificates/dsa.pdf" target="_blank" class="cert-card">
+      <h3>🧠 Data Structures & Algorithms</h3>
+      <p>Problem solving and algorithm design</p>
+      <span>GeeksforGeeks / LeetCode</span>
+    </a>
+
+    <!-- <a href="assets/certificates/backend.pdf" target="_blank" class="cert-card">
+      <h3>⚙️ Backend Development</h3>
+      <p>Node.js, Express, APIs</p>
+      <span>Self + Online Platforms</span>
+    </a> -->
+
+  </div>
+</section>
+
+<section id="profiles">
+  <h2>💻 Coding Profiles</h2>
+  <div class="profiles-grid">
+
+    <a href="https://leetcode.com/progress/" target="_blank" class="profile-card">
+      <h3>🎯 LeetCode</h3>
+      <p>Solved 80+ problems</p>
+    </a>
+
+    <a href="https://www.geeksforgeeks.org/profile/saurabhgaujjfn?tab=activity" target="_blank" class="profile-card">
+      <h3>📚 GeeksforGeeks</h3>
+      <p>83 coding scores in DSA practice </p>
+    </a>
+
+    <a href="https://github.com/saurabhgautam56?tab=repositories" target="_blank" class="profile-card">
+      <h3>🐙 GitHub</h3>
+      <p>Projects & Code Repositories</p>
+    </a>
+
+  </div>
+</section>
+
+<section id="projects">
+  <h2>🚀 Projects</h2>
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="react">React</button>
+    <button class="filter-btn" data-filter="js">JavaScript</button>
+    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+  </div>
+  <div class="projects-grid">
+
+    <!-- MUSIC PLAYER -->
+    <div class="card project-item" data-category="react">
+      <h3>🎵 Music Player</h3>
+      <p>Built a responsive music player with playlist management, 
+        track controls (play/pause/next), and smooth UI animations.</p>
+      <div class="project-tech">
+          <span>React</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+      </div>
+      <div class="project-meta">
+        ⭐ <span class="stars" data-repo="saurabhgautam56/my-music-player">0</span>
+      </div>
+      <div class="project-links">
+        <a href="https://saurabhgautam56.github.io/my-music-player/" target="_blank">Live Demo</a>
+        <a href="https://github.com/saurabhgautam56/my-music-player" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- CHATBOT -->
+    <div class="card project-item" data-category="js">
+      <h3>🤖 Chatbot</h3>
+      <p>Developed an interactive chatbot using JavaScript with dynamic responses.</p>
+      <div class="project-tech">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+      </div>
+      <div class="project-meta">
+        ⭐ <span class="stars" data-repo="saurabhgautam56/chatbot-project">0</span>
+      </div>
+      <div class="project-links">
+        <a href="https://saurabhgautam56.github.io/chatbot-project/" target="_blank">Live Demo</a>
+        <a href="https://github.com/saurabhgautam56/chatbot-project" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- E-COMMERCE -->
+    <div class="card project-item" data-category="fullstack">
+      <h3>🛒 E-commerce Website</h3>
+      <p>Designed an e-commerce web application with product listing, 
+        cart management, and checkout flow. Implemented responsive UI 
+        and structured components to simulate a real-world shopping experience.</p>
+      <div class="project-tech">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+      </div>
+      <div class="project-meta">
+        ⭐ <span class="stars" data-repo="saurabhgautam56/Ecommerce">0</span>
+      </div>
+      <div class="project-links">
+        <a href="#" target="_blank">Live Demo</a>
+        <a href="https://github.com/saurabhgautam56/Ecommerce" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <form id="contactForm">
+    <input type="text" placeholder="Name" required />
+    <input type="email" placeholder="Email" required />
+    <textarea placeholder="Message"></textarea>
+    <button class="btn-primary">Send</button>
+    <div id="formStatus"></div>
+  </form>
+</section>
+
+<footer>
+  <p>© <span id="year"></span> Saurabh Gautam</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
