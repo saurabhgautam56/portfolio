@@ -2,8 +2,6 @@
 
 🔗 **Live Demo:** https://saurabhgautamprofile.netlify.app/
 
-🔗 **Github Demo:** https://saurabhgautam.github.io/portfolio/
-
 ---
 
 ## 📌 About
